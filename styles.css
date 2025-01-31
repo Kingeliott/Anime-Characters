@@ -1,0 +1,27 @@
+html {
+    background-color: #1A1A1D;
+}
+body {
+    background-color: #1A1A1D;
+    width: 97%;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+#title {
+    background-color: #1A1A1D;
+    color:#ECDFCC;
+    text-align: center;
+    font-family: "Orbitron", serif;
+}
+
+.list {
+    column-count:4;
+    background-color: #1A1A1D;
+
+}

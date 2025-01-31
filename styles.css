@@ -34,7 +34,7 @@ img {
 
 
     .list {
-
+        gap:8px;
         grid-auto-rows: 200px;
         background-color: #1A1A1D; /* Set this as the background */
         display: grid;

@@ -25,3 +25,21 @@ img {
     background-color: #1A1A1D;
 
 }
+
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for smaller screens */
+    body {
+      font-size: 16px; /* Reduce text size */
+      padding: 10px;
+    }
+  
+    .img {
+      width: 100%; /* Make images responsive */
+      height: auto;
+    }
+    
+    /* Other mobile-specific styles */
+    .some-element {
+      margin-top: 10px;
+    }
+  }

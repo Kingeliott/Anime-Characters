@@ -1,7 +1,7 @@
 let currentSound = null;
 
  function flipAnimate() {
-    const sounds = ["/Sounds/katon (1).mp3", "/Sounds/anime-wow-sound-effect-mp3cut.mp3", "/Sounds/error_CDOxCYm.mp3"
+    const sounds = ["/Sounds/katon(1).mp3", "/Sounds/anime-wow-sound-effect-mp3cut.mp3", "/Sounds/error_CDOxCYm.mp3"
         , "/Sounds/aaaaaaaa-online-audio-converter_r9waVUO.mp3", "/Sounds/oh-my-god-bro-oh-hell-nah-man.mp3", "/Sounds/punch-gaming-sound-effect-hd_RzlG1GE.mp3",
         "/Sounds/mlg-airhorn.mp3", "/Sounds/goofy-ahh-sounds.mp3",
     ];

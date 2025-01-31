@@ -28,6 +28,7 @@ img {
 
 @media only screen and (max-width: 600px) {
 
+
     
     /* Adjust styles for smaller screens */
     body {
@@ -35,19 +36,20 @@ img {
       padding: 10px;
     }
   
+    .list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        background-color: #1A1A1D; /* Make sure this is correct */
+    }
+    
     .img {
       width: 100%; /* Make images responsive */
       height: auto;
     }
 
    
-    .list {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr); /* Create 3 columns */
-        gap: 10px; /* Space between images */
-       
-
-    }
+   
     
     /* Other mobile-specific styles */
 }

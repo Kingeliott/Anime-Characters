@@ -37,9 +37,12 @@ img {
       width: 100%; /* Make images responsive */
       height: auto;
     }
+    .list {
+        column-count:3;
+        background-color: #1A1A1D;
+    
+    }
     
     /* Other mobile-specific styles */
-    .some-element {
-      margin-top: 10px;
-    }
+  
   }

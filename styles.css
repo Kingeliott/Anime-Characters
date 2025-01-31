@@ -27,6 +27,11 @@ img {
 }
 
 @media only screen and (max-width: 600px) {
+
+    .list {
+        background-color: #f0f0f0; /* Change background color for testing */
+  
+    }
     /* Adjust styles for smaller screens */
     body {
       font-size: 16px; /* Reduce text size */
@@ -38,10 +43,7 @@ img {
       height: auto;
     }
 
-    .list {
-        background-color: #f0f0f0; /* Change background color for testing */
-  
-    }
+   
     .list {
         display: grid;
         grid-template-columns: repeat(3, 1fr); /* Create 3 columns */

@@ -37,16 +37,18 @@ img {
       width: 100%; /* Make images responsive */
       height: auto;
     }
-  
 
+    .list {
+        background-color: #f0f0f0; /* Change background color for testing */
+  
+    }
     .list {
         display: grid;
         grid-template-columns: repeat(3, 1fr); /* Create 3 columns */
         gap: 10px; /* Space between images */
-        background-color: #1A1A1D;
+       
 
     }
     
     /* Other mobile-specific styles */
-  
-  }
+}

@@ -37,10 +37,14 @@ img {
       width: 100%; /* Make images responsive */
       height: auto;
     }
+  
+
     .list {
-        column-count:3;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Create 3 columns */
+        gap: 10px; /* Space between images */
         background-color: #1A1A1D;
-    
+
     }
     
     /* Other mobile-specific styles */

@@ -28,15 +28,14 @@ img {
 
 @media only screen and (max-width: 600px) {
 
-    body {
-        background-color: #fff; /* Reset body background color */
-    }
+
 
     .list {
         background-color: #1A1A1D; /* Set this as the background */
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
+        width: 97%;
     }
 
     .img {

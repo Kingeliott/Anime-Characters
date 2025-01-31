@@ -28,24 +28,20 @@ img {
 
 @media only screen and (max-width: 600px) {
 
-
-    
-    /* Adjust styles for smaller screens */
     body {
-      font-size: 16px; /* Reduce text size */
-      padding: 10px;
+        background-color: #fff; /* Reset body background color */
     }
-  
+
     .list {
+        background-color: #1A1A1D; /* Set this as the background */
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
-        background-color: #1A1A1D; /* Make sure this is correct */
     }
-    
+
     .img {
-      width: 100%; /* Make images responsive */
-      height: auto;
+        width: 100%;
+        height: auto;
     }
 
    
